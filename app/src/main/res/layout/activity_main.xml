@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.lmoumou.lib_downlistview.DownListView
+        android:id="@+id/mDownListView"
+        android:background="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:paddingBottom="12dp"
+        android:paddingRight="24dp"
+        android:paddingTop="12dp"
+        app:dl_divisionSize="2dp"
+        app:dl_frameColor="@android:color/holo_blue_bright"
+        app:dl_frameSize="4dp"
+        app:dl_maxHeight="50"
+        app:dl_popupBg="@drawable/popup_bg_2"
+        app:dl_text="显示的内容"
+        app:dl_textColor="@android:color/holo_green_light"
+        app:dl_textSize="20sp"
+        app:dl_trigoColor="@android:color/holo_green_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,9 @@
+<resources>
+
+
+    <style name="popupWinsowAnim">
+        <item name="android:windowEnterAnimation">@anim/in_top</item>
+        <item name="android:windowExitAnimation">@anim/out_top</item>
+    </style>
+
+</resources>

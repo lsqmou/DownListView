@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DownListView">
+        <!--文本内容-->
+        <attr name="dl_text" format="string|reference" />
+        <!--文本大小-->
+        <attr name="dl_textSize" format="dimension|reference" />
+        <!--文本颜色-->
+        <attr name="dl_textColor" format="color|reference" />
+        <!--背景框线的粗细-->
+        <attr name="dl_frameSize" format="dimension|reference" />
+        <!--背景框颜色-->
+        <attr name="dl_frameColor" format="reference|color" />
+        <!--分隔线粗细-->
+        <attr name="dl_divisionSize" format="dimension|reference" />
+        <!--三角形颜色-->
+        <attr name="dl_trigoColor" format="color|reference" />
+        <!--弹窗所占屏幕的高度比例-->
+        <attr name="dl_maxHeight" format="integer" />
+        <!--弹窗背景-->
+        <attr name="dl_popupBg" format="reference" />
+    </declare-styleable>
+
+</resources>
