@@ -3,7 +3,7 @@
 一个简单的下拉列表。
 一个PopupWindow弹窗，布局控件RecyclerView通过接口BindListener将RecyclerView抛出来，RecyclerView的适配器需要自己去实现，不在这做解释
 ## Example
-![images](./20180801_143605.gif)
+![images](https://github.com/lsqmou/DownListView/blob/master/images/20180801_143605.gif)
 ##Download
 ```gradle
 allprojects {
